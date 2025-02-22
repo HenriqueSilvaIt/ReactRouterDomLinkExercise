@@ -1,0 +1,8 @@
+ .title-page h2{
+        display: flex;
+        justify-content: center;
+        color: var(--color-font-primary);
+        font-size:32px;
+        margin: 38px 0 47px 0;
+
+ }
