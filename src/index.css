@@ -1,0 +1,74 @@
+:root {
+  --color-m-header: #FF2323;
+
+  --color-m-font-primary: #FFFFFF;
+  --color-m-font-secundary: #6F6F6F;
+
+  --color-m-bg-page: #DADADA;
+  --color-m-bg-card: #Fff;
+  --color-m-bg-btn: #FF2323;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  height: 80px;
+  background-color: vaR(--color-m-header);
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-color: var(--color-m-bg-page);
+}
+
+.m-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+
+nav h1 {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color-m-font-primary);
+  outline: none;
+  
+}
+
+.m-card {
+  width: 960px;
+  height: 200px;
+  margin-top: 30px;
+  background-color: var(--color-m-bg-card);
+  border-radius: 6px;
+}
+
+.m-card h3{
+  font-size: 20px;
+  color: var(--color-m-font-secundary);
+  padding: 20px 0 0 20px;
+}
+
+.m-button{
+
+  color: var(--color-m-font-primary);
+  font-size: 16px;
+  background-color: var(--color-m-bg-btn);
+  border: solid var(--color-m-bg-btn);
+  border-radius: 6px;
+  margin-top: 30px;
+  width: 150px;
+  height: 45px;
+  cursor: pointer; /*maozinh*/
+
+
+  
+}
+
